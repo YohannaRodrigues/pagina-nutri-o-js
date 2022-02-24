@@ -8,10 +8,17 @@ body {
 }
 
 header {
-  background-color: #333;
-  height: 3em;
+  background-color: #a6b065;
+  height: 6em;
   color: #fff;
   margin-bottom: 1em;
+}
+
+.link-Pg {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font: bold;
 }
 
 header h1 {
@@ -23,6 +30,8 @@ header h2 {
   font-size: 2em;
   display: inline-block;
   vertical-align: middle;
+  margin-left: 2rem;
+  text-align: left;
 }
 
 header .container:before {
@@ -33,7 +42,7 @@ header .container:before {
 }
 
 .container {
-  width: 60%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
 }
@@ -81,7 +90,7 @@ label {
   padding-bottom: 1em;
   width: 100%;
   border: 1px solid #ccc;
-  padding: 0.7em;
+  padding: 0.9em;
   width: 100%;
 }
 
@@ -91,7 +100,7 @@ label {
 }
 
 .grupo {
-  width: 32%;
+  width: 33%;
   display: inline-block;
   padding: 10px 0px;
 }
@@ -105,9 +114,9 @@ button {
   margin: 0;
   margin-top: -3px;
   color: #fff;
-  background-color: #0c8cd3;
-  border-color: #04324c;
-  width: 20%;
+  background-color: #6d7846;
+  border-color: #333821;
+  width: 10rem;
   display: block;
   clear: both;
   margin: 10px 0px;
@@ -146,11 +155,29 @@ button:disabled {
 }
 
 #filtrar-tabela {
-  width: 300px;
+  width: 15rem;
   height: 30px;
   margin-bottom: 10px;
 }
 
 .invisivel {
   display: none;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 6rem;
+  background-color: #a6b065;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 0;
+}
+
+.nome-footer {
+  font-size: 20px;
+}
+
+a {
+  margin: 5px;
 }
