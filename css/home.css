@@ -1,4 +1,49 @@
-body {
-  background-image: url(../img/acabate.jpg);
-  background-size: cover;
+header {
+  background-color: #a6b065;
+  height: 6em;
+  color: #fff;
+  margin-bottom: 1em;
+  margin: 0 0 10rem 0;
+}
+
+.link-Pg {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font: bold;
+}
+main {
+  background-image: url(/img/acabate.jpg);
+}
+
+.caixa {
+  background-color: #a6b065;
+  max-width: 30rem;
+  max-height: 60rem;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 6rem;
+  background-color: #a6b065;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 0;
+}
+
+.nome-footer {
+  font-size: 20px;
+}
+
+a {
+  margin: 5px;
 }
